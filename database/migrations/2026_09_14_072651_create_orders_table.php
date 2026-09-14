@@ -13,16 +13,16 @@ return new class extends Migration
     {
         Schema::create('orders', function (Blueprint $table) {
             $table->id();
-            $table->string('customer_id')
-            ->constrained('customers')
-            ->onDelete('cascade');
+            // Foreign key relasi ke tabel customers dengan onDelete('cascade')
+            $table->foreignId('customer_id')->constrained('customers')->onDelete('cascade');
             $table->string('invoice_code')->unique();
             $table->date('order_date');
-            $table->date('completion_date');
-            $table-> $table->enum('status', ['pending', 'processing', 'ready', 'completed'])->default('pending');
-            $table->string('total_price');
+            $table->date('completion_date')->nullable();
+            $table->enum('status', ['pending', 'processing', 'ready', 'completed'])->default('pending');
+            $table->decimal('total_price', 12, 2);
             $table->timestamps();
         });
+    
     }
 
     /**

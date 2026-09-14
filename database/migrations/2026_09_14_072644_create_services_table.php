@@ -14,10 +14,11 @@ return new class extends Migration
         Schema::create('services', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('price_per_kg');
+            $table->decimal('price_per_kg', 10, 2);
             $table->string('unit');
             $table->timestamps();
         });
+    
     }
 
     /**
