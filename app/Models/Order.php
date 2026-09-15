@@ -19,6 +19,10 @@ class Order extends Model
         'status', 
         'total_price'
     ];
+    protected $casts = [
+        'order_date' => 'datetime',
+        'completion_date' => 'datetime',
+    ];
 
     /**
      * Relasi balik ke Customer (Setiap order dimiliki oleh satu customer)
