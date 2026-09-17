@@ -270,11 +270,6 @@ docs/E-Laundry_API.postman_collection.json
 3. *422 Unprocessable Entity* — Menampilkan error ketika data yang dikirim tidak lengkap.
 4. *404 Not Found* — Menampilkan error ketika ID transaksi tidak ditemukan.
 
----
-
-## 📄 Lisensi
-
-Proyek *E-Laundry* menggunakan lisensi *MIT*.
 
 ---
 
