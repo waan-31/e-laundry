@@ -37,7 +37,6 @@ Teknologi yang digunakan dalam pengembangan E-Londri:
 
 * *Framework Backend:* Laravel 13
 * *Database:* MySQL 8.0
-* *Authentication:* Laravel Sanctum / JWT
 * *API Documentation & Testing:* Postman Collection v2.1
 * *Version Control:* Git & GitHub
 
