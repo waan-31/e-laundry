@@ -16,7 +16,6 @@ E-Laundry adalah aplikasi *manajemen operasional dan sistem kasir laundry digita
 * [Panduan Instalasi & Konfigurasi Lokal](#-panduan-instalasi--konfigurasi-lokal)
 * [Dokumentasi RESTful API](#-dokumentasi-restful-api)
 * [Pengujian (Testing)](#-pengujian-testing)
-* [Lisensi](#-lisensi)
 
 ---
 
